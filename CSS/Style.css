@@ -1,0 +1,106 @@
+/* Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600");
+
+/* Global - Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+h3{
+    text-decoration: underline;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer{
+    background: linear-gradient(90deg, #4f2f68,#387271, #2a515f);
+    padding: 1.4rem;
+    color: #fff;
+    width: 100%;
+}
+
+.footer-flex{  
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.logo-content{
+    flex: 1;
+    min-width: 300px;
+    padding: 1.2rem;
+}
+
+.logo-about p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+.footer-content{
+    flex: 2;
+    min-width: 300px;
+    padding: 1.2rem;
+}
+
+.footer-content-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 3rem;
+    gap: 20px;
+}
+
+.row h3{
+    margin: 15px 0;
+}
+
+.row ul{
+    list-style: none;
+}
+
+.row  ul li{
+    margin-bottom: 8px;
+}
+
+.footer-line{
+    color: #fff;
+    margin: 2.8rem 0;
+}
+
+.foot-line-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.footer-line .social-links{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-line .social-links img{
+    width: 35px;
+}
+
+@media screen and (max-width:560px) {
+    .foot-line-flex{
+        flex-direction: column;
+    }
+
+    .social-links{
+        margin-top: 20px;
+    }
+}
